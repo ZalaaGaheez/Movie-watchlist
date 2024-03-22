@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('background 1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   
+    
+}
+
+#title-header{
+    text-align:center;
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+.overlay{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    background-color: black;
+    padding: -10px;
+    margin: -20px;
+    gap:40px;
+    
+
+}
+
+
+#searchForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+}
+
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px; 
+}
+    
+
+   
+    
+
+.first-section{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#resultsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.movie h2 {
+    margin-top: 0;
+}
+
+.movie p {
+    margin-bottom: 10px;
+}
+
+.add-remove-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-remove-btn:hover {
+    background-color: #555;
+}
+
+#watchlist-header{
+    text-decoration: none;
+    color: #fff;
+ align-self: center;
+    font-size: 18px;
+
+   
+
+}
+
+
